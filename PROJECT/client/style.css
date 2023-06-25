@@ -1,0 +1,141 @@
+body {
+    background-color: #f1f8fe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align:center;
+}
+.report {
+    padding: 20px;
+    width: auto;
+	height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid #7d7d7d;
+    border-radius: 15px;
+
+}
+.populations {
+    position: absolute;
+    right: 0px;
+	width: 900px;
+	height: 530px;
+}
+.wrapper{
+    position: absolute;
+    right: 0px;
+	width: 900px;
+	height: 530px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: flex;
+    flex-wrap: wrap;
+	grid-gap: 0 20px;
+	border-radius: 10px;
+}
+
+.f1-row {
+    height: auto;
+    width: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    border: 4px solid #337AB7;
+}    
+.fl-col {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border: 4px solid;
+}    
+
+.fl-col-text {
+    padding: 0px;
+    width: 105px;
+    height: 105px;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: #337AB7;
+}
+
+p {
+    margin: 5px;
+}
+
+.butt {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button.b {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #1b1b1b;
+    display:block;
+    width:150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;        
+}
+button.b.buttStart {
+    background-color: #f8fbfe;
+    border: 2px solid  rgb(102, 191, 129);
+}
+            
+button.b.buttStart:hover {
+    background-color: rgb(102, 191, 129);
+    border: 2px solid  rgb(102, 191, 129);
+    color: #f8fbfe;
+}
+
+button.b.buttStop {
+    background-color: #f8fbfe;
+    border: 2px solid rgb(181, 87, 87);
+}
+            
+button.b.buttStop:hover {
+    background-color: rgb(181, 87, 87);
+    border: 2px solid rgb(181, 87, 87);
+    color: #f8fbfe;
+}
+
+select, input {
+    margin-bottom: 7px;
+    display: block;
+    width: 450px; /* от ширины блока div */
+    padding: .30rem 0rem .30rem 0rem;/* отступы от текста до рамки */
+    background: #f8fbfe; /* убираем фон */
+    border: 2px solid #7d7d7d; /* рамка */
+    border-radius: 4px;/* скругление полей формы */
+    font-family: inherit;/* наследует от родителя */
+    font-size: 1rem;
+    color: #1b1b1b;
+    font-style: oblique;
+}
+
+label {
+    font-weight: 450;
+}
